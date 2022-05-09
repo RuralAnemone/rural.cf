@@ -7,8 +7,8 @@
     <!-- tbh I'm just using backend for rural.cf/* -->
     <!-- it's basically a "404" page for everything that redirects to site.tld/path/to/page.html -->
     <script>
-      var redir = true;
-      document.write/* oh yes I did */('<p>redirecting to <a href="https://ruralanemone.tech' + window.location.pathname + '">ruralanemone.tech' + window.location.pathname + '</a> in 5 seconds...<br>(press space to redirect immediately)<br><br><br><a href="https://school.ruralanemone.tech' + window.location.pathname + '">on school wifi? click here!</a> (or press enter)<br><br><a href="https://site.rural.cf' + window.location.pathname + "'>is *.ruralanemone.tech blocked by your district...?</a> man they\'re getting good (also I don\'t have a keycode for this eh)</p><style>a{color:skyblue;}</style>')
+      let redir = true;
+      document.write/* oh yes I did */('<html>redirecting to <a href="https://ruralanemone.tech' + window.location.pathname + '">ruralanemone.tech' + window.location.pathname + '</a> in 5 seconds...<br>(press space to redirect immediately)<br><br><br><a href="https://school.ruralanemone.tech' + window.location.pathname + '">on school wifi? click here!</a> (or press enter)<br><br><a href="https://site.rural.cf' + window.location.pathname + '">is *.ruralanemone.tech blocked by your district...?</a> man they\'re getting good (also I don\'t have a keycode for this eh)</html><style>a{color:skyblue;}</style>')
 
       
       setTimeout(function(){
